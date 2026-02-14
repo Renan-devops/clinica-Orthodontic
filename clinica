@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Orthodontic</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f8fc;
+            color: #1e3a5f;
+        }
+
+        header {
+            background-color: #0d3b66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #145da0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(to right, #0d3b66, #1f6fbe);
+            color: white;
+        }
+
+        .section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #0d3b66;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+@media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Clínica Orthodontic</h1>
+    <p>Sorriso saudável, confiança renovada</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+    <h2>Especialistas em Ortodontia e Estética Dental</h2>
+    <p>Cuidamos do seu sorriso com tecnologia moderna e atendimento humanizado.</p>
+</section>
+
+<section id="sobre" class="section">
+    <h2>Sobre Nós</h2>
+    <p>
+        A Clínica Orthodontic oferece tratamentos odontológicos completos,
+        com foco em ortodontia, estética dental e saúde bucal preventiva.
+        Nossa equipe é altamente qualificada e utiliza equipamentos modernos
+        para garantir conforto e segurança aos nossos pacientes.
+    </p>
+</section>
+
+<section id="servicos" class="section">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Ortodontia</h3>
+            <p>Aparelhos fixos e alinhadores para correção do sorriso.</p>
+        </div>
+        <div class="card">
+            <h3>Clareamento Dental</h3>
+            <p>Procedimentos seguros para um sorriso mais branco.</p>
+        </div>
+        <div class="card">
+            <h3>Implantes</h3>
+            <p>Soluções modernas para reposição dentária.</p>
+        </div>
+    </div>
+</section>
+<section id="contato" class="section">
+    <h2>Contato</h2>
+    <p><strong>Telefone:</strong> (00) 0000-0000</p>
+    <p><strong>Email:</strong> contato@clinicaorthodontic.com</p>
+    <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Clínica Orthodontic - Todos os direitos reservados</p>
+</footer>
+
+<!-- Chatbot -->
+<script>
+ window.chtlConfig = { chatbotId: "7297456957" }
+</script>
+<script async data-id="7297456957" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+
+</body>
+</html>
